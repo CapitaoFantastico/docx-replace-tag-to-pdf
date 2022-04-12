@@ -1,0 +1,57 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@types/node': ^17.0.23
+  '@types/pizzip': ^3.0.2
+  docxtemplater: ^3.29.0
+  pizzip: ^3.1.1
+  typescript: ^4.6.3
+
+dependencies:
+  docxtemplater: 3.29.0
+  pizzip: 3.1.1
+
+devDependencies:
+  '@types/node': 17.0.23
+  '@types/pizzip': 3.0.2
+  typescript: 4.6.3
+
+packages:
+
+  /@types/node/17.0.23:
+    resolution: {integrity: sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==}
+    dev: true
+
+  /@types/pizzip/3.0.2:
+    resolution: {integrity: sha512-tawT8YAMYCOPLmyx945+0bbmL/XB0ldwX7gemWhGhYmot2a3wsKQCaJw2Nr3KK+bbpTcl4cbJRkQS2jscKn/qw==}
+    dependencies:
+      '@types/node': 17.0.23
+    dev: true
+
+  /@xmldom/xmldom/0.8.2:
+    resolution: {integrity: sha512-+R0juSseERyoPvnBQ/cZih6bpF7IpCXlWbHRoCRzYzqpz6gWHOgf8o4MOEf6KBVuOyqU+gCNLkCWVIJAro8XyQ==}
+    engines: {node: '>=10.0.0'}
+    dev: false
+
+  /docxtemplater/3.29.0:
+    resolution: {integrity: sha512-fzbAZsvo5z7VxfMv2mVkuveDUETaWIhsyPs+n04NjhOFd8aHkKW9mH7UvNzOoxSi7ueS4gdM8NGVyeJ/n2cKcQ==}
+    engines: {node: '>=0.10'}
+    dependencies:
+      '@xmldom/xmldom': 0.8.2
+    dev: false
+
+  /pako/2.0.4:
+    resolution: {integrity: sha512-v8tweI900AUkZN6heMU/4Uy4cXRc2AYNRggVmTR+dEncawDJgCdLMximOVA2p4qO57WMynangsfGRb5WD6L1Bg==}
+    dev: false
+
+  /pizzip/3.1.1:
+    resolution: {integrity: sha512-+SYbkj87i+/4LR2F0lIeLTRFg95aj14OhGka988Jg8HiXZVOifdBIWaKZTnfZFvvUl5torCXQ/e+wZ6D23hPuQ==}
+    dependencies:
+      pako: 2.0.4
+    dev: false
+
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
